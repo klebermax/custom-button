@@ -1,0 +1,36 @@
+{
+  "name": "@klebermax/custom-button",
+  "module": "/dist/custom-button",
+  "description": "A custom button for ReactJS projects",
+  "version": "1.0.0",
+  "author": {
+    "name": "Kleber Max",
+    "email": "the.key.max@gmail.com"
+  },
+  "homepage": "https://github.com/klebermax/custom-button#readme",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:klebermax/custom-button.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "docs": "start-storybook -p 9001 -c .storybook",
+    "docs:build": "build-storybook -c .storybook -o docs"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "@storybook/addon-info": "^5.3.19",
+    "@storybook/components": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "react": "^16.13.1",
+    "storybook-addon-jsx": "^7.3.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
